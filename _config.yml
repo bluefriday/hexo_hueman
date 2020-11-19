@@ -10,7 +10,7 @@ customize:
     logo:
         width: 165
         height: 60
-        url: images/logo-header.png
+        url: images/logo-bluefirday.png
     theme_color: '#00FF00'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
