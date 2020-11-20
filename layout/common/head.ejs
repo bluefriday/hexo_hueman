@@ -39,6 +39,9 @@
         twitter_id:     theme.miscellaneous.open_graph.twitter_id,
     }) %>
     <%- meta(page) %>
+    <%- autoCanonical(config, page) %>
+    <meta name="google-site-verification" content="qhT14OwcWMsIIUiJ8mFhBe-u736DkiQiO2O0Q7TxCPs" />
+    <meta name="naver-site-verification" content="80257501d0601feddc01a6a8d2dfa26d6035cefb" />
 
     <% if (theme.customize && theme.customize.social_links && theme.customize.social_links.rss) { %>
         <link rel="alternate" href="<%- theme.customize.social_links.rss %>" title="<%= config.title %>" type="application/atom+xml" />
